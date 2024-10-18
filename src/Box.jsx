@@ -1,5 +1,5 @@
 import './App.css'
-const Box = ({ value, onClick }) => {
+const Box = ({ value, onClick} ) => {
     return (
         <button className="square" onClick={onClick}>
             {value}
