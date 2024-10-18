@@ -1,6 +1,6 @@
 import Square from "./Box";
 import './App.css'
-const Board = ({ squares, onClick }) => {
+const Board = ( {squares, onClick }) => {
     return (
         <div>
             <div className="board-row">
